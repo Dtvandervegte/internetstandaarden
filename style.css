@@ -40,7 +40,6 @@ ul li a {
   color: black;
   padding: 10px 20px;
   border: 1px solid transparent;
-  transition: 0.5 ease;
 }
 
 ul li a:hover {
@@ -60,7 +59,7 @@ main {
 
 nav ul {
   display: flex;
-  flex-wrap: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
