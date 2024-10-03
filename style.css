@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap");
+
+h4 {
+  font-family: Rokkitt;
+  display: flex;
+  justify-content: center;
+  font-size: 10em;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: rgb(108, 63, 23);
+}
+
+* {
+  font-family: Rokkitt;
+}
+
+body {
+  background-color: rgb(232, 211, 173);
+}
+
+body {
+  background-image: url(images/images/achtergrondregenboogtrans.png);
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  margin-top: 40px;
+  margin-right: 200px;
+  font-size: 25px;
+  gap: 2em;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+}
+
+ul li a:hover {
+  background-color: rgb(108, 63, 23);
+  color: rgb(232, 211, 173);
+  border-radius: 2px;
+}
+
+.logovinylplaat {
+  width: 200px;
+  height: auto;
+}
+
+main {
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: flex;
+  align-items: center;
+}
+
+nav img {
+  margin-right: 75px;
+}
+
+h1 p {
+  display: flex;
+}
+
+.ovonopmaak {
+  display: flex;
+  border: 10px solid rgb(108, 63, 23);
+  background-color: rgb(108, 63, 23);
+  color: rgb(232, 211, 173);
+  margin-left: 4.5em;
+  margin-right: 4.5em;
+  border-width: 10px;
+  border-radius: 5px;
+}
+
+.ovonopmaaktwee {
+  display: flex;
+  border: 10px solid rgb(108, 63, 23);
+  background-color: rgb(108, 63, 23);
+  color: rgb(232, 211, 173);
+  margin-top: 2em;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 45em;
+  margin-left: 3.6em;
+  font-size: 20px;
+}
+
+.fotooverons {
+  display: flex;
+  width: 10px;
+  height: auto;
+  align-items: center;
+  margin-left: 53em;
+  margin-top: -28em;
+  gap: 5em;
+}
+
+.beschrijvingoverons {
+  display: flex;
+  border: 5px solid rgb(108, 63, 23);
+  width: 290px;
+  background-color: rgb(108, 63, 23);
+  color: rgb(232, 211, 173);
+  border-radius: 10px;
+  margin-left: 53em;
+  padding-top: 10px;
+  justify-content: center;
+  margin-top: -2em;
+}
+
+.beschrijvingoveronstwee {
+  display: flex;
+  border: 5px solid rgb(108, 63, 23);
+  width: 290px;
+  background-color: rgb(108, 63, 23);
+  color: rgb(232, 211, 173);
+  border-radius: 10px;
+  margin-left: 76.8em;
+  padding-top: 10px;
+  justify-content: center;
+  margin-top: -5.5em;
+  margin-bottom: 10em;
+}
+
+.beschrijving {
+  display: flex;
+  border: 10px solid rgb(108, 63, 23);
+  width: 1550px;
+  background-color: rgb(108, 63, 23);
+  border-bottom: 10px;
+  border-radius: 10px;
+  margin-left: 4.5em;
+  margin-bottom: 3em;
+}
+
+.bandfoto {
+  width: 300px;
+  height: auto;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bandBeschrijving {
+  display: flex;
+  flex-direction: column;
+  color: rgb(232, 211, 173);
+  flex-wrap: wrap;
+  font-size: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.recentpod {
+  margin-left: 6em;
+  color: rgb(108, 63, 23);
+}
+
+.introductie {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(images/images/achtergrondmerch.png);
+  margin-left: 65em;
+  margin-right: 10em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.merchknop a {
+  font-size: 23px;
+  margin-left: 4px;
+  display: flex;
+  background-color: rgb(108, 63, 23);
+  border-radius: 50px;
+  color: rgb(232, 211, 173);
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+.merchknop a:hover {
+  display: flex;
+  background-color: rgb(232, 211, 173);
+  color: rgb(108, 63, 23);
+  border-radius: 2px;
+  border-radius: 25px;
+  padding: 175px 125px;
+  font-size: 23px;
+}
+
+.grootte {
+  margin-top: 25em;
+  color: rgb(108, 63, 23);
+}
+
+.logoyoutube img {
+  display: flex;
+  width: 75px;
+  height: auto;
+}
+
+.logoinstagram img {
+  display: flex;
+  width: 50px;
+  height: auto;
+  margin-left: 10em;
+}
+
+iframe {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8em;
+  margin-top: -450px;
+  margin-bottom: 5em;
+}
+
+.upcoming {
+  margin-left: 6em;
+  color: rgb(108, 63, 23);
+}
+
+.logofooter img {
+  display: flex;
+  width: 200px;
+  height: auto;
+  align-items: center;
+  margin-left: 5em;
+}
+
+.beschrijvingfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: rgb(232, 211, 173);
+
+  margin-right: -0.5em;
+  margin-left: -1em;
+  margin-top: -11em;
+  margin-bottom: -2em;
+
+  border: 10px solid rgb(108, 63, 23);
+  padding-right: 5em;
+
+  background-color: rgb(108, 63, 23);
+}
+
+.linksfooter a {
+  display: flex;
+  color: rgb(232, 211, 173);
+  flex-direction: column;
+  align-items: end;
+}
